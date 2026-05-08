@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/bennington-triangle",
     "maintainers": [
       {
@@ -16,111 +16,268 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "bennington-triangle",
-    "name": "Bennington Triangle - Vermont's Vanishing Zone",
-    "aliases": [],
-    "category": "LOCATION_PHENOMENON",
-    "subcategory": "Unknown",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Bennington Triangle",
+    "aliases": [
+      { "name": "Vermont's Vanishing Zone", "language": "English", "region": "Vermont, USA", "meaning": "Popular press designation for the cluster of disappearances in the Glastenbury Mountain area" }
     ],
-    "status": "documented",
+    "category": "LOCATION",
+    "subcategory": "Unexplained disappearance cluster / anomalous location",
+    "tags": [
+      "disappearances",
+      "vermont",
+      "glastenbury-mountain",
+      "unexplained",
+      "location",
+      "united-states",
+      "1940s-1950s"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "This phenomenon has been documented extensively across multiple time periods and continues to generate interest from researchers, folklorists, and investigators.",
-      "full": "This phenomenon has been documented extensively across multiple time periods and continues to generate interest from researchers, folklorists, and investigators. The evidence includes eyewitness accounts, cultural traditions, and in some cases physical documentation."
+      "summary": "The Bennington Triangle is a term coined by author Joseph A. Citro for an area of southwestern Vermont, centered on Glastenbury Mountain, where five people disappeared under unexplained circumstances between 1945 and 1950.",
+      "full": "The Bennington Triangle is a colloquial designation for a stretch of southwestern Vermont centered on Glastenbury Mountain and encompassing parts of Bennington, Woodford, Shaftsbury, and Somerset. Author and folklorist Joseph A. Citro coined the term and popularized it through his books including 'Shadow Child'. Five people disappeared in the area between November 1945 and October 1950: Middie Rivers (74, experienced outdoorsman, November 1945), Paula Jean Welden (18, Bennington College student, December 1, 1946), James Tedford (68, WWI veteran, December 1, 1949), Paul Jepson (8 years old, October 12, 1950), and Frieda Langer (53, experienced hiker, October 28, 1950). Langer's body was found in May 1951; the others were never found. The geographic area was historically one of the few areas of Vermont that remained virtually uninhabited even during the peak of agricultural settlement — Glastenbury and Somerset became ghost towns — which folklorists attribute to the difficulty of the terrain and repeated failed attempts at logging and industry. The Bennington Triangle has no counterpart in official law enforcement classification; Vermont state police and the FBI investigated individual cases without producing explanations. The clustering in time and place, the wilderness terrain of Glastenbury Mountain (elevation 3,748 feet), and the inability to find most bodies or evidence have sustained paranormal and anomalous interpretations."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The term 'Bennington Triangle' was coined by Vermont author and folklorist Joseph A. Citro, modeled on the Bermuda Triangle designation. It refers to the town of Bennington, Vermont, near which several of the disappearances occurred.",
+      "meaning": "A triangular geographic region near Bennington, Vermont, associated with a cluster of unexplained disappearances.",
+      "first_use": "Attributed to Joseph A. Citro; popularized through his work in the 1990s"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "LOCATION_PHENOMENON",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "LOCATION",
+      "type": "Disappearance cluster location",
+      "subtype": "Wilderness anomalous zone",
+      "variant": "Vermont, USA"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "bermuda-triangle", "name": "Bermuda Triangle", "relationship": "similar", "description": "The naming convention was directly borrowed from the Bermuda Triangle" },
+      { "id": "devil-sea", "name": "Devil's Sea / Dragon's Triangle", "relationship": "similar", "description": "Another named disappearance cluster used as a paranormal location designation" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Remote wilderness terrain", "description": "Glastenbury Mountain (3,748 feet) and the surrounding area constitute some of the most remote terrain in Vermont, with dense forest and difficult access", "frequency": "always" },
+        { "feature": "Ghost town landscape", "description": "Glastenbury and Somerset are among the very few Vermont ghost towns — the area was logged and mined but never successfully settled, and most inhabitants eventually left", "frequency": "always" }
+      ],
+      "morphology": "A geographic region; not a physical entity. The 'triangle' is a colloquial boundary designation, not an officially mapped area."
     },
     "abilities": [],
     "behavior": {
       "activity_period": "unknown",
       "disposition": "unknown",
-      "habitat_preference": []
+      "social_structure": "unknown",
+      "habitat_preference": ["remote mountain wilderness", "Vermont Green Mountains"],
+      "patterns": [
+        "Five disappearances clustered in a five-year period (1945–1950)",
+        "Most victims were never found",
+        "Area has historically resisted permanent human settlement",
+        "The disappearances ceased after 1950 with no documented recurrence"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The Bennington Triangle centers on Glastenbury Mountain in southwestern Vermont, encompassing parts of the towns of Bennington, Woodford, Shaftsbury, and Somerset.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Southwestern Vermont",
+        "Glastenbury Mountain area",
+        "Bennington County, Vermont"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Glastenbury Mountain",
+        "location": {
+          "description": "Glastenbury Mountain, southwestern Vermont",
+          "country": "United States",
+          "region": "Vermont",
+          "coordinates": { "latitude": 43.07, "longitude": -73.06 }
+        },
+        "notes": "The central geographic feature of the Bennington Triangle; nearly all disappearances occurred in trails and roads in the vicinity of Glastenbury Mountain"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1945-11-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Disappearance of Middie Rivers, November 1945"
+      },
+      "peak_activity_periods": [
+        { "period": "1945–1950", "description": "All five documented disappearances occurred within this five-year period" }
+      ],
+      "seasonal_patterns": "All five disappearances occurred in autumn (October–December), during the hunting, hiking, and late-season outdoor activity period"
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Glastenbury Mountain area has a history of failed settlement. The towns of Glastenbury and Somerset became ghost towns after logging and industrial ventures failed in the late 19th century. Indigenous Abenaki traditions reportedly associated the area with spirits, though this claim appears in popular rather than ethnographic sources. The pattern of disappearances became widely discussed only after Joseph A. Citro coined the 'Bennington Triangle' designation.",
+      "earliest_accounts": "The first disappearance in the cluster was that of Middie Rivers in November 1945.",
+      "folklore_connections": "The Bennington Triangle concept borrows directly from the Bermuda Triangle naming convention. It belongs to a broader tradition of 'anomalous zones' — geographic areas given a special designation to explain clustering of unusual events."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1945-11-01", "event": "Middie Rivers, 74, an experienced local guide, vanishes while leading a hunting party near Woodford, Vermont; only a single rifle cartridge is found", "significance": "First disappearance in what would become the Bennington Triangle cluster", "source": "Historical records cited in Citro, J. A." },
+      { "date": "1946-12-01", "event": "Paula Jean Welden, 18, a Bennington College sophomore, disappears on the Long Trail near Glastenbury Mountain while hiking alone and insufficiently equipped; the FBI investigates and offers a $5,000 reward; she is never found", "significance": "Most famous Bennington Triangle case; inspired Shirley Jackson's 1951 novel 'Hangsaman' and led to the creation of the Vermont State Police", "source": "Press coverage; cited in Citro, J. A." },
+      { "date": "1949-12-01", "event": "James Tedford, 68, a WWI veteran living in the Bennington Soldiers Home, disappears on December 1 — exactly three years after Paula Jean Welden — while traveling by bus from St. Albans to Bennington; last confirmed seen at a stop; his belongings were found on the bus but he was gone", "significance": "Disappearance on the same date as Welden; noted for occurring on a public bus route", "source": "Press coverage; cited in Citro, J. A." },
+      { "date": "1950-10-12", "event": "Paul Jepson, 8, a boy with special needs, vanishes from near an unattended vehicle at a town dump in the area; a bloodhound tracks his scent to a road intersection where the trail ends; he is never found", "significance": "Youngest victim; trail ending at a road suggests he may have entered a vehicle", "source": "Press coverage; cited in Citro, J. A." },
+      { "date": "1950-10-28", "event": "Frieda Langer, 53, an experienced hiker camping near Somerset Reservoir with her cousin, slips into a stream and goes back to change clothes; she is never seen again; her body is found the following May approximately 3.5 miles from the campsite", "significance": "Only victim whose body was recovered; cause of death not determined due to decomposition", "source": "Press coverage; cited in Citro, J. A." }
+    ],
+    "modern_era": "The Bennington Triangle has become a fixture of Vermont paranormal tourism and American mystery literature. It has been featured in the Lore podcast, the Travel Channel's 'Most Terrifying Places in America', and numerous books on American mysteries. The Vermont State Police, created partly in response to the Paula Jean Welden case, has not publicly attributed the disappearances to any common cause. The area remains sparsely inhabited wilderness."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
-      "verified": 0,
+      "total_documented": 5,
+      "verified": 5,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1945", "latest": "1950" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "bennington-1946-welden",
+        "name": "Paula Jean Welden disappearance",
+        "date": { "value": "1946-12-01", "precision": "exact" },
+        "location": {
+          "description": "Long Trail, near Glastenbury Mountain, Vermont",
+          "country": "United States",
+          "region": "Vermont",
+          "locality": "Bennington County"
+        },
+        "witnesses": { "count": 2, "types": ["Other hikers who saw her on the trail"], "credibility_factors": ["Multiple witness accounts of her on the trail before she vanished"] },
+        "description": "Paula Jean Welden, an 18-year-old Bennington College sophomore, was last seen hiking on the Long Trail near Glastenbury Mountain on December 1, 1946, wearing a red jacket, jeans, and lightweight sneakers with no camping gear. Other hikers reported seeing her on the trail, then she was simply gone. The FBI investigated; a $5,000 reward was offered. She was never found. Her case led directly to the creation of the Vermont State Police.",
+        "conditions": { "weather": "Late autumn", "visibility": "Daylight", "time_of_day": "Afternoon", "duration": "Unknown" },
+        "evidence": ["Witness accounts of seeing her on the trail", "Search of the area found no trace"],
+        "credibility": { "rating": "high", "factors": ["Well-documented contemporary press coverage", "FBI investigation", "Multiple witnesses"], "notes": "The most thoroughly documented Bennington Triangle case; Welden's disappearance remains officially unsolved." },
+        "sources": ["Contemporary press coverage", "Citro, J. A., 'Shadow Child' and related works"],
+        "featured": true
+      },
+      {
+        "id": "bennington-1950-langer",
+        "name": "Frieda Langer disappearance",
+        "date": { "value": "1950-10-28", "precision": "exact" },
+        "location": {
+          "description": "Somerset Reservoir area, near Glastenbury Mountain, Vermont",
+          "country": "United States",
+          "region": "Vermont",
+          "locality": "Bennington County"
+        },
+        "witnesses": { "count": 1, "types": ["Her cousin (last person to see her)"], "credibility_factors": ["Family member with direct knowledge of circumstances"] },
+        "description": "Frieda Langer, 53, an experienced hiker, was camping near Somerset Reservoir with her cousin when she slipped into a stream. She told her cousin she was going back to camp to change clothes and was never seen alive again. Her body was recovered in May 1951 approximately 3.5 miles from the campsite; cause of death was indeterminate due to decomposition.",
+        "conditions": { "weather": "Autumn", "visibility": "Daylight", "time_of_day": "Afternoon", "duration": "Unknown" },
+        "evidence": ["Body recovered May 1951", "Cause of death undetermined"],
+        "credibility": { "rating": "high", "factors": ["Only victim whose body was recovered", "Body found in open area despite thorough earlier searches"], "notes": "The only case where remains were found; the body's location — found open in an area previously searched — has generated speculation." },
+        "sources": ["Contemporary press coverage", "Citro, J. A."],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "bennington-evidence-langer-body",
+        "type": "human remains",
+        "name": "Frieda Langer remains",
+        "date": "1951-05-01",
+        "description": "Body of Frieda Langer recovered in May 1951, approximately 3.5 miles from her Somerset Reservoir campsite; found in an open area that had been previously searched during the 1950 effort.",
+        "status": "verified",
+        "analysis": "Cause of death could not be determined due to the degree of decomposition. The body's location — found in a searched area — could not be explained.",
+        "source": "Vermont law enforcement records; press coverage"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [
+      {
+        "id": "bennington-evidence-rivers-cartridge",
+        "type": "physical object",
+        "name": "Middie Rivers rifle cartridge",
+        "date": "1945-11-01",
+        "description": "A single rifle cartridge was found the following spring along a trail near where Middie Rivers vanished; the only physical trace ever recovered.",
+        "status": "unverified",
+        "analysis": "A single cartridge provides no useful information about the circumstances of disappearance.",
+        "source": "Historical records; Citro, J. A."
+      }
+    ],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Anomalous zone / supernatural predation",
+        "description": "Various paranormal researchers propose that the Glastenbury Mountain area is a genuine anomalous zone where normal physical laws are suspended or where a predatory entity (variously described as a cryptid, a dimensional rift, or a malevolent genius loci) takes victims. The historical Abenaki avoidance of the area is sometimes cited as evidence of an indigenous awareness of the danger.",
+        "proponents": ["Joseph A. Citro (as possibility)", "Various paranormal researchers"],
+        "evidence_cited": ["Clustering of disappearances in time and place", "Historical human avoidance of the area", "No bodies or evidence recovered in most cases"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Wilderness accidents and retrospective clustering",
+        "description": "Skeptics argue the five disappearances represent unrelated wilderness accidents in a remote area, retrospectively linked by the Bennington Triangle framing. The terrain — Glastenbury Mountain is dense, steep, and difficult — makes accidents plausible in every case. The clustering in time may reflect the increased outdoor recreation activity of the postwar period. The 'triangle' has no meaningful boundary; other Vermont disappearances outside the arbitrary zone are not included.",
+        "proponents": ["Skeptical researchers", "Law enforcement investigators"],
+        "evidence_cited": ["Each individual case has plausible wilderness accident explanations", "The 'triangle' boundary is arbitrary and defined retrospectively", "Similar disappearance rates occur in remote wilderness areas worldwide", "No evidence of any common cause across the five cases"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Abenaki indigenous traditions reportedly associated Glastenbury Mountain with spirits (attribution appears in popular rather than verified ethnographic sources)",
+        "History of failed human settlement in Glastenbury and Somerset ghost towns",
+        "Vermont local legend regarding the area's 'cursed' or 'haunted' character"
+      ],
+      "stories": [
+        "Shirley Jackson's 1951 novel 'Hangsaman' was directly inspired by the Paula Jean Welden case",
+        "The Vermont State Police was created in direct response to the inadequacy of local law enforcement in handling the Welden case"
+      ],
+      "beliefs": "The Bennington Triangle is primarily a modern popular legend rather than a deep-rooted folk tradition. It belongs to the genre of 'named mystery zones' — the Bermuda Triangle, the Devil's Sea — that cluster unexplained events within a named geographic boundary to create a mythology of danger."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Joseph A. Citro, 'Shadow Child' — coined and popularized the Bennington Triangle concept",
+        "Shirley Jackson, 'Hangsaman' (1951) — novel inspired by the Paula Jean Welden disappearance"
+      ],
+      "film_tv": [
+        "Travel Channel, 'Most Terrifying Places in America' — featured the Bennington Triangle",
+        "Lore podcast — episode on the Bennington Triangle disappearances"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Vermont paranormal tourism in the Bennington area"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Joseph A. Citro", "affiliation": "Vermont author and folklorist", "contribution": "Coined the term 'Bennington Triangle' and compiled the most comprehensive popular account of the disappearances", "period": "1990s–present" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The individual disappearance cases remain officially unsolved. No active academic or law enforcement investigation of the 'Bennington Triangle' as a phenomenon is ongoing; the cases are closed cold cases."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-bennington-triangle",
+      "type": "website",
+      "title": "Bennington Triangle",
+      "url": "https://en.wikipedia.org/wiki/Bennington_Triangle",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
